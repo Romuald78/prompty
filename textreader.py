@@ -62,7 +62,7 @@ class TextReader():
         return out
 
     def _addText(self, filePath):
-        fp = open(filePath)
+        fp = open(filePath,encoding='utf-8')
         rl = fp.readlines()
         fp.close()
         txt = "".join(rl)
