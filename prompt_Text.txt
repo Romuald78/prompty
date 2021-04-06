@@ -1,0 +1,21 @@
+<title>Using Views for Start/End Screens
+Views allow you to easily switch "views" for what you are showing on the window. You can use this to support adding screens such as:
+- Start screens
+- Instruction screens
+- Game over screens
+- Pause screens
+
+The View class is a lot like the Window class that you are already used to.
+
+The View class has methods for on_update and on_draw just like Window
+
+We can change the current view to quickly change the code that is managing what is drawn on the window and handling user input.
+
+If you know ahead of time you want to use views, you can build your code around the Instruction Screens and Game Over Screens.
+
+However, typically a programmer wants to add these items to a game that already exists.
+
+This tutorial steps you through how to do just that.
+
+<title>Change Main Program to Use a View
+First, we'll start with a simple collect coins example: 01_views.py Full Listing
